@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 160px;
+}
+
+body {
+      min-width: 300px;
+      background-color: cornflowerblue; 
+}
+
+img{
+    width: 180px;
+    height: 180px;
+}
+
+.meni{
+    overflow: hidden;
+    background-color: navy;
+    position: sticky; 
+    top: 0; 
+    width: 100%;
+}
+
+.glavni{
+    padding: 10px;
+    width: 100%;
+}
+
+.meni a{
+    color: aliceblue;
+    display: flex;
+    padding-right: 10px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.meni div{
+    float: left;  
+}
+
+#ri > *{
+    clear: both;
+    text-align: center;
+    padding-left: 10px;
+}
+#ee > *{
+    clear: both;
+    text-align: center;
+    padding-left: 10px;
+}
+#tk > *{
+    clear: both;
+    text-align: center;
+    padding-left: 10px;
+}
+#aie > *{
+    clear: both;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.wrapper{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 190px);
+    height: auto;
+    text-align: center;
+}
+.obavezni{
+    background-color: white;
+}
+.izborni{
+    background-color: powderblue;
+}
+.vanakademskegodine{
+    background-color: gray;
+}
+@media only screen and (max-width: 300px) {
+
+    .wrapper{
+        display: grid;
+    }
+    
+}
+
+@media only screen and (max-width: 726px){
+    .meni{
+        position: static;
+    }
+}
+
+
+
+
+
+
+
+
+
